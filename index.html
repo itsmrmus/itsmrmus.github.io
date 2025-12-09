@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الهضاب لتجهيز الملاعب</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">الهضاب لتجهيز الملاعب</div>
+    </div>
+    <nav class="nav">
+      <a href="#home">Accueil</a>
+      <a href="#produits">Produits</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="social">
+      <a href="https://www.instagram.com/sarl_alhidab/" target="_blank" aria-label="Instagram">📸</a>
+      <a href="https://www.facebook.com/profile.php?id=61575905810291&locale=fr_FR" target="_blank" aria-label="Facebook">📘</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- SLIDESHOW -->
+    <section class="slideshow" aria-label="Bannières">
+      <div class="slides">
+        <img src="assets/banner1.png" alt="Bannière الهضاب لتجهيز الملاعب" class="slide active">
+        <!-- To add more slides: duplicate this line with another image path -->
+        <!-- <img src="assets/banner2.jpg" alt="Bannière 2" class="slide"> -->
+      </div>
+      <button class="nav-btn prev" aria-label="Précédent">&#10094;</button>
+      <button class="nav-btn next" aria-label="Suivant">&#10095;</button>
+    </section>
+
+    <!-- PRODUITS -->
+    <section id="produits" class="section">
+      <h2 class="section-title">Nos Produits</h2>
+      <div class="products">
+        <!-- Duplicate product-card blocks to add unlimited products -->
+        <article class="product-card" 
+                 data-name="Jeux de cheval"
+                 data-price="45 000 DA"
+                 data-desc="🎉 حصان نابض – متعة لا تنتهي للأطفال! 
+امنح الأطفال تجربة لعب مليئة بالحماس مع حصان النابض المصمم على شكل ديناصور أخضر مرح! يتميز بتصميم آمن وجذاب، ألوان زاهية تشد انتباه الصغار، ومقابض جانبية مريحة تساعد على التوازن.
+مصنوع من مواد عالية الجودة ومثبت على نابض قوي ليوفر حركة سلسة وآمنة. مثالي لحدائق الألعاب، المدارس، والمساحات الترفيهية.
+✅ مقاوم للعوامل الجوية
+✅ يعزز التوازن والتنسيق الحركي
+✅ مثالي للأطفال من عمر 2 إلى 6 سنوات
+
+✨ أضف لمسة من المرح إلى أي مساحة لعب مع هذه اللعبة المميزة!"
+                 data-img="images/Product1.jpg">
+          <div class="product-media">
+            <img src="images/Product1.jpg" alt="Jeux de cheval">
+          </div>
+          <div class="product-body">
+            <h3>Jeux de cheval</h3>
+            <p class="price">45 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+        <article class="product-card" 
+                 data-name="poubelle en bois"
+                 data-price="7 000 DA"
+                 data-desc="🪵 سلة المهملات الخشبية – لمسة طبيعية ! 🌳✨
+أضف طابعًا راقياً ومتناغماً مع البيئة  مع سلة القمامة الخشبية المصممة بعناية لتناسب المساحات الخارجية. تجمع بين الأناقة، المتانة، والوظيفة العملية، لتكون الخيار المثالي في الحدائق العامة، ملاعب الأطفال، والمدارس.
+
+✅ تصميم خشبي جذّاب ينسجم مع الطبيعة
+✅ هيكل قوي مقاوم للعوامل الجوية
+✅ آمنة وسهلة الاستخدام للأطفال والكبار على حد سواء
+
+لبيئة نظيفة وجذابة... اختر السلة التي تجمع بين الجمال والوظيفة! 🍃🧒👧"
+                 data-img="images/Product2.jpg">
+          <div class="product-media">
+            <img src="images/Product2.jpg" alt="poubelle en bois">
+          </div>
+          <div class="product-body">
+            <h3>poubelle en bois</h3>
+            <p class="price">7 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+        <article class="product-card" 
+                 data-name="toboggan T2"
+                 data-price="137 000 DA"
+                 data-desc="🎡 مجموعة ألعاب خارجية متكاملة – مرح، أمان، وإبداع في الهواء الطلق!
+
+حوّل أي مساحة خارجية إلى عالم من المتعة والاكتشاف مع هذه المجموعة الرائعة من ألعاب الأطفال المصممة بألوان زاهية تجذب الأنظار وتغمر الصغار بالفرح.
+
+✨ تتكوّن من:
+🔹 زلاجة مزدوجة بتصميم آمن وانسيابي
+🔹 منصات تسلق متينة مع جسور تربطها
+🔹 أرجوحات ممتعة تناسب جميع الأعمار
+🔹 مظلات صغيرة تظلل الأطفال أثناء اللعب
+🔹 أرضية ملونة تفاعلية تحفّز الحواس
+
+💡 مثالية للمدارس، الحدائق، الحضانات، والمراكز الترفيهية.
+🛡️ مصنوعة من مواد آمنة ومقاومة للعوامل الجوية لضمان المتانة والراحة."
+                 data-img="images/Product3.jpg">
+          <div class="product-media">
+            <img src="images/Product3.jpg" alt="toboggan T2">
+          </div>
+          <div class="product-body">
+            <h3>toboggan T2</h3>
+            <p class="price">137 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+        <article class="product-card" 
+                 data-name="Balançoire"
+                 data-price="39 000 DA"
+                 data-desc="🎉 أرجوحة مزدوجة للأطفال – متعة لا تنتهي
+
+قدّم لأطفالك لحظات من السعادة والمرح مع هذه الأرجوحة المزدوجة المصممة بعناية لتجمع بين الأمان، الجودة، والألوان الجذابة.
+مصنوعة من مواد متينة وآمنة، مع مقاعد مريحة وحبال قوية مثبّتة بإحكام، ما يجعلها مثالية لرياض الأطفال، النوادي، أو حتى داخل المنزل.
+
+✅ تصميم أنيق وجذاب
+✅ تركيب سهل وسريع
+✅ مناسبة للأطفال من مختلف الأعمار
+✅ آمنة تمامًا للاستخدام اليومي
+
+🧒🎈 اجعل كل يوم مليئًا بالمرح والحركة لأطفالك مع أرجوحتنا الرائعة!"
+                 data-img="images/Product4.jpg">
+          <div class="product-media">
+            <img src="images/Product4.jpg" alt="Balançoire">
+          </div>
+          <div class="product-body">
+            <h3>Balançoire</h3>
+            <p class="price">39 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+        <article class="product-card" 
+                 data-name="Balançoire pour enfants"
+                 data-price="8 000 DA"
+                 data-desc="🎠 أرجوحة بلاستيكية للأطفال – ألوان زاهية ومتعة آمنة!
+
+أضف لمسة من المرح والإثارة إلى مساحة اللعب مع هذه الأرجوحة البلاستيكية العصرية، المصممة خصيصًا للأطفال! تأتي الأرجوحة بتصميم مريح وآمن مع مقعد بلاستيكي متين وألوان جذابة (أحمر وأزرق) تجذب انتباه الصغار.
+
+✅ حبال قوية ومتينة مقاومة للتآكل
+✅ تصميم مريح يدعم الجلوس الآمن للأطفال
+✅ مثالية للحدائق، المدارس، والنوادي
+✅ سهلة التركيب والتعليق
+
+💡 الأرجوحة المثالية لتعزيز التوازن والتنسيق الحركي عند الأطفال، مع أقصى درجات الأمان والمتعة!"
+                 data-img="images/Product5.jpg">
+          <div class="product-media">
+            <img src="images/Product5.jpg" alt="Balançoire pour enfants">
+          </div>
+          <div class="product-body">
+            <h3>Balançoire pour enfants</h3>
+            <p class="price">8 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+        <article class="product-card" 
+                 data-name="jeux bascule"
+                 data-price="32 000 DA"
+                 data-desc="Offrez aux enfants une expérience ludique qui développe leur coordination, leur motricité et leur confiance en eux. Conçu pour les crèches, écoles, aires de jeux ou même à la maison, notre Jeu de bascule encourage le mouvement actif tout en s’amusant. 🎯 Caractéristiques principales : Fabriqué en matériaux durables et sécurisés pour les enfants Développe la motricité globale et l’équilibre Design coloré et attractif pour stimuler l’imagination Convient au jeu individuel ou en groupe Disponible chez nous ALHIDAB CONSTRUCTION Favorisez l’apprentissage actif et le bien-être physique grâce à un jeu amusant et éducatif, parfaitement adapté aux jeunes aventuriers !"
+                 data-img="images/Product6.jpg">
+          <div class="product-media">
+            <img src="images/Product6.jpg" alt="jeux bascule">
+          </div>
+          <div class="product-body">
+            <h3>jeux bascule</h3>
+            <p class="price">32 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+<article class="product-card" 
+                 data-name="NOTHING"
+                 data-price="45 000 DA"
+                 data-desc="🎉 حصان نابض – متعة لا تنتهي للأطفال! 
+امنح الأطفال تجربة لعب مليئة بالحماس مع حصان النابض المصمم على شكل ديناصور أخضر مرح! يتميز بتصميم آمن وجذاب، ألوان زاهية تشد انتباه الصغار، ومقابض جانبية مريحة تساعد على التوازن.
+مصنوع من مواد عالية الجودة ومثبت على نابض قوي ليوفر حركة سلسة وآمنة. مثالي لحدائق الألعاب، المدارس، والمساحات الترفيهية.
+✅ مقاوم للعوامل الجوية
+✅ يعزز التوازن والتنسيق الحركي
+✅ مثالي للأطفال من عمر 2 إلى 6 سنوات
+
+✨ أضف لمسة من المرح إلى أي مساحة لعب مع هذه اللعبة المميزة!"
+                 data-img="images/Product7.jpg">
+          <div class="product-media">
+            <img src="images/Product7.jpg" alt="Jeux de cheval">
+          </div>
+          <div class="product-body">
+            <h3>Jeux de cheval</h3>
+            <p class="price">45 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+<article class="product-card" 
+                 data-name="Jeux de cheval"
+                 data-price="45 000 DA"
+                 data-desc="🎉 حصان نابض – متعة لا تنتهي للأطفال! 
+امنح الأطفال تجربة لعب مليئة بالحماس مع حصان النابض المصمم على شكل ديناصور أخضر مرح! يتميز بتصميم آمن وجذاب، ألوان زاهية تشد انتباه الصغار، ومقابض جانبية مريحة تساعد على التوازن.
+مصنوع من مواد عالية الجودة ومثبت على نابض قوي ليوفر حركة سلسة وآمنة. مثالي لحدائق الألعاب، المدارس، والمساحات الترفيهية.
+✅ مقاوم للعوامل الجوية
+✅ يعزز التوازن والتنسيق الحركي
+✅ مثالي للأطفال من عمر 2 إلى 6 سنوات
+
+✨ أضف لمسة من المرح إلى أي مساحة لعب مع هذه اللعبة المميزة!"
+                 data-img="images/Product8.jpg">
+          <div class="product-media">
+            <img src="images/Product8.jpg" alt="Jeux de cheval">
+          </div>
+          <div class="product-body">
+            <h3>Jeux de cheval</h3>
+            <p class="price">45 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+<article class="product-card" 
+                 data-name="Jeux de cheval"
+                 data-price="45 000 DA"
+                 data-desc="🎉 حصان نابض – متعة لا تنتهي للأطفال! 
+امنح الأطفال تجربة لعب مليئة بالحماس مع حصان النابض المصمم على شكل ديناصور أخضر مرح! يتميز بتصميم آمن وجذاب، ألوان زاهية تشد انتباه الصغار، ومقابض جانبية مريحة تساعد على التوازن.
+مصنوع من مواد عالية الجودة ومثبت على نابض قوي ليوفر حركة سلسة وآمنة. مثالي لحدائق الألعاب، المدارس، والمساحات الترفيهية.
+✅ مقاوم للعوامل الجوية
+✅ يعزز التوازن والتنسيق الحركي
+✅ مثالي للأطفال من عمر 2 إلى 6 سنوات
+
+✨ أضف لمسة من المرح إلى أي مساحة لعب مع هذه اللعبة المميزة!"
+                 data-img="images/Product9.jpg">
+          <div class="product-media">
+            <img src="images/Product9.jpg" alt="Jeux de cheval">
+          </div>
+          <div class="product-body">
+            <h3>Jeux de cheval</h3>
+            <p class="price">45 000 DA</p>
+            <button class="btn details-btn">Voir détails</button>
+          </div>
+        </article>
+
+      </div>
+  
+    </section>
+
+    <!-- À PROPOS / CONTACT -->
+    <section id="apropos" class="section about">
+      <h2 class="section-title">À propos de nous</h2>
+      <p>نوفّر لك كل ما تحتاجه من مستلزمات الملاعب، الحدائق، وساحات اللعب بجودة عالية وخيارات متنوعة، تشمل العشب الصناعي والتجهيزات المتكاملة. بفضل خبرتنا في التوريد والتجهيز، نقدّم لك حلولاً ذكية بأسعار تنافسية وخدمة موثوقة يمكنك الاعتماد عليها.</p>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Nous joindre</h3>
+          <ul>
+            <li>📞 <a href="tel:+213550752198">0550752198</a></li>
+            <li>📞 <a href="tel:+213790712563">0790712563</a></li>
+            <li>📧 <a href="mailto:contact@alhidab.com">sarlalhidab.construction@gmail.com</a></li>
+            <li>📸 <a href="https://www.instagram.com/sarl_alhidab/" target="_blank">Instagram</a></li>
+            <li>📘 <a href="https://www.facebook.com/profile.php?id=61575905810291&locale=fr_FR" target="_blank">Facebook</a></li>
+          </ul>
+        </div>
+        <div class="map-card">
+          <h3>Nous trouver (Birtouta)</h3>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps?q=Birtouta,Algeria&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              aria-label="Carte de Birtouta">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 الهضاب لتجهيز الملاعب — Tous droits réservés</p>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal" id="productModal" aria-hidden="true" role="dialog">
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Fermer">×</button>
+      <div class="modal-media">
+        <img id="modalImg" src="" alt="Produit">
+      </div>
+      <div class="modal-body">
+        <h3 id="modalTitle"></h3>
+        <p class="modal-price" id="modalPrice"></p>
+        <p id="modalDesc"></p>
+        <div class="modal-actions">
+          <a id="waBtn" class="btn primary" target="_blank" rel="noopener">WhatsApp</a>
+          <a id="callBtn" class="btn outline" href="tel:+213550752198">Appeler</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
